@@ -1,0 +1,72 @@
+body{
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+}
+.logo-ricomida{
+  font-family: 'Lobster', cursive;
+}
+.bg-darken{
+  background-color: #373A3C;
+}
+.bg-red{
+  background-color: #DC3545;
+}
+.border-top-black{
+  border-top: 1px solid black;
+}
+.border-bottom-black{
+  border-bottom: 1px solid black;
+}
+@media screen and (max-width: 991px) {
+  .border-top-sm-black{
+    border-top: 1px solid black;
+  }
+  .hide-border-sm{
+    border: 0;
+  }
+}
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after,
+.bs-popover-bottom>.popover-arrow::after{
+  border-bottom-color: #373A3C;
+}
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after,
+.bs-popover-top>.popover-arrow::after{
+  border-top-color: #373A3C;
+}
+.bs-popover-auto[data-popper-placement^=right]>.popover-arrow::after,
+.bs-popover-right>.popover-arrow::after{
+  border-right-color: #373A3C;
+}
+.bs-popover-auto[data-popper-placement^=left]>.popover-arrow::after,
+.bs-popover-left>.popover-arrow::after{
+  border-left-color: #373A3C;
+}
+.custom-popover{
+  --bs-popover-max-width: 400px;
+}
+.custom-popover .popover-body{
+  background: #373A3C;
+  color: white;
+  padding: 8px 20px;
+}
+.carousel-indicators{
+  bottom: -60px;
+}
+.carousel-indicators [data-bs-target]{
+  height: 13px;
+  width: 13px;
+}
+.recipe-description *{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.number-list{
+  padding-left: 0;
+  list-style: decimal inside none;
+}
+.number-list li{
+  margin-bottom: 1rem;
+}
+.fs-7{
+  font-size: .9rem;
+}
